@@ -1,0 +1,133 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+
+}
+.flexContainer2 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.logo {
+
+  padding-top: 50px;
+  padding-left: 150px;
+  width: 50%;
+}
+
+.logoPic {
+  padding-bottom: 120px;
+}
+
+.info {
+  padding-right: 100px;
+  padding-left: 150px;
+  width: 50%;
+  height: 400px;
+}
+
+body {
+  margin: 0;
+}
+
+.links {
+  background-color: hsl(207, 33%, 95%);
+  width: 50%;
+  border-bottom-left-radius: 10%;
+  text-align: right;
+  padding: 50px 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.imgMove {
+  position: absolute;
+  bottom: 115px;
+  right: 0;
+}
+
+.scheduleButton {
+  background-color: hsl(0, 100%, 68%);
+  border-radius: 5%;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  display: inline;
+  padding: 10px 25px;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.preview {
+  font-family: 'Barlow Condensed';
+  font-weight: 100;
+  letter-spacing: 3px;
+  display: inline;
+  color: hsl(230, 11%, 40%);
+  font-size: 14px;
+
+}
+
+.newButton {
+  background-color: black;
+  border-radius: 30%;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  display: inline;
+  padding: 3px 10px;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.topLinks {
+  font-family: 'Barlow Condensed';
+  font-size: 14px;
+  padding: 20px;
+  display: inline;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+
+}
+
+p {
+  font-weight: 400;
+  font-family: 'Barlow';
+
+}
+
+h1 {
+font-family: 'Barlow Condensed';
+font-weight: 700;
+font-size: 52px;
+color: black;
+font-weight: bold;
+max-width: 400px;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+.topLinks:hover {
+  text-decoration: underline;
+  opacity: 100%;
+}
+
+.login {
+  font-family: 'Barlow Condensed';
+  font-size: 14px;
+  padding: 20px;
+  display: inline;
+  font-weight: bold;
+  text-decoration: none;
+  color: hsl(231, 7%, 65%);
+}
+
+.login:hover {
+  opacity: 100%;
+  text-decoration: underline;
+}
